@@ -1,0 +1,17 @@
+{
+    "name": "landing-page",
+    "version": "1.0.0",
+    "description": "Landing Page Profesional",
+    "main": "index.js",
+    "scripts": {
+      "build": "tailwindcss build src/styles/tailwind.css -o public/css/styles.css"
+    },
+    "dependencies": {
+      "tailwindcss": "^2.2.19"
+    },
+    "devDependencies": {
+      "postcss": "^8.2.4",
+      "autoprefixer": "^10.2.4"
+    }
+  }
+  
