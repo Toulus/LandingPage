@@ -11,4 +11,4 @@ Este es un proyecto de Landing Page profesional que utiliza las siguientes tecno
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Toulus/landing-page.git
+   git clone https://github.com/Toulus/LandingPage.git
