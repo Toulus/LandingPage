@@ -4,16 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page Profesional</title>
-  <!-- Tailwind CSS vía CDN -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- GSAP para animaciones -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-  <!-- FontAwesome para íconos -->
   <script src="https://kit.fontawesome.com/tu-codigo-kit.js" crossorigin="anonymous"></script>
 <!-- <img src="public/logo.png">-->  
 </head>
 <body class="bg-gray-100 text-gray-900">
-  <!-- Navbar -->
+
   <nav class="bg-white shadow">
     <div class="container mx-auto px-4 py-4 flex justify-between items-center">
       <h1 class="text-xl font-bold">Mi Portafolio</h1>
@@ -25,7 +22,6 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
   <section id="hero" class="bg-blue-600 text-white py-20">
     <div class="container mx-auto text-center">
       <h2 class="text-4xl font-bold mb-4">Bienvenido a Mi Portafolio</h2>
@@ -34,7 +30,7 @@
     </div>
   </section>
 
-  <!-- Sección Sobre Mí -->
+
   <section id="sobre-mi" class="py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-8">Sobre Mí</h2>
@@ -44,14 +40,13 @@
     </div>
   </section>
 
-  <!-- Sección Proyectos -->
   <section id="proyectos" class="bg-gray-200 py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-8">Proyectos Destacados</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="bg-white p-6 rounded shadow">
           <h3 class="text-xl font-semibold mb-2">Landing Page</h3>
-          <p class="mb-4">Descripción breve del proyecto.</p>
+          <p class="mb-4">Landing Page moderna</p>
           <a href="https://github.com/Toulus/LandingPage.git" target="_blank" class="text-blue-600 hover:underline">Ver en GitHub</a>
         </div>
         <div class="bg-white p-6 rounded shadow">
@@ -68,7 +63,6 @@
     </div>
   </section>
 
-  <!-- Sección Contacto -->
   <section id="contacto" class="py-16">
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-8">Contacto</h2>
@@ -91,7 +85,6 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-gray-800 text-gray-300 py-6">
     <div class="container mx-auto text-center">
       <p>&copy; 2025 Mi Portafolio. Todos los derechos reservados.</p>
@@ -99,16 +92,16 @@
         <a href="https://github.com/Toulus" target="_blank" class="mx-2">
           <i class="fab fa-github fa-lg"></i>
         </a>
-        <a href="https://linkedin.com/in/TU-USUARIO" target="_blank" class="mx-2">
+        <a href="https://www.linkedin.com/in/david-ismael-vargas-cedillo-759ab2b8/" target="_blank" class="mx-2">
           <i class="fab fa-linkedin fa-lg"></i>
         </a>
       </div>
     </div>
   </footer>
 
-  <!-- Scripts para animaciones con GSAP -->
+  <!-- Scripts para animaciones -->
   <script>
-    // Animación para el título y párrafo de la sección Hero
+    
     gsap.from("#hero h2", { duration: 1, y: -50, opacity: 0, ease: "power2.out" });
     gsap.from("#hero p", { duration: 1, delay: 0.5, y: -50, opacity: 0, ease: "power2.out" });
   </script>
